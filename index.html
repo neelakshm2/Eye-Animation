@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="app.js"></script>
     <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            padding: 0;
-            margin: 0;
-        }
-        main{
-            display: grid;
-            place-items: center;
-            min-height: 100vh;
-            position: relative;
-        }
-        #eyes, #eyes img{
-            position: absolute;
-        }
+      body {
+        background-color: #000;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+      }
+
+      main {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        position: relative;
+      }
+
+      #eyes,
+      #eyes img {
+        position: absolute;
+        width: 8%;
+      }
     </style>
-</head>
-<body>
+  </head>
+
+  <body>
     <main>
-        <img id="anchor" src="-breaking-bad-rick-and-morty-wallpaper.jpg" height="730px" width="1530px">
-        <div id="eyes">
-            <img class="eye" src="eye.jpg" style="top: -14.75rem; left: 400px; height:9px;">
-            <img class="eye" src="eye.jpg" style="top:-247px; left: 449px;height: 9px;">
-            <img class="eye" src="eye.jpg" style="top: -103px; left: -406px; height:10px;">
-            <img class="eye" src="eye.jpg" style="top: -83px; left: -341px; height:9px;" >
-        </div>
+      <img
+        id="anchor"
+        src="-breaking-bad-rick-and-morty-wallpaper.jpg"
+        style="object-fit: cover; height: auto; width: 100%"
+      />
+      <div id="eyes">
+        <img class="eye" src="eye.jpg" style="top: -276px; left: 452px" />
+        <img class="eye" src="eye.jpg" style="top: -289px; left: 499px" />
+        <img class="eye" src="eye.jpg" style="top: -117px; left: -343px" />
+        <img class="eye" src="eye.jpg" style="top: -97px; left: -284px" />
+      </div>
     </main>
-    
-</body>
+  </body>
 </html>
